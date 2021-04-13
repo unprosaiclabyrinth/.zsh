@@ -1,0 +1,2 @@
+# .zsh
+Automatic config zsh
