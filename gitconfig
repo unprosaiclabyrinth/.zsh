@@ -1,0 +1,18 @@
+[alias]
+	br = branch
+	co = checkout
+	st = status
+[user]
+	email = xjtuwxg@gmail.com
+	name = Xiaoguang Wang
+
+[credential]
+	helper = store
+[pager]
+	branch = false
+[core]
+	editor = vim
+[merge]
+	tool = meld
+[mergetool]
+	prompt = false
