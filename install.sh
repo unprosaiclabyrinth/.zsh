@@ -13,10 +13,10 @@ echo 'HISTSIZE=10000' >> ~/.zshrc
 echo 'SAVEHIST=10000' >> ~/.zshrc
 echo 'setopt appendhistory' >> ~/.zshrc
 
-echo 'alias ls='ls --color=auto'' >> ~/.zshrc
-echo 'alias grep='grep --color=auto'' >> ~/.zshrc
-echo 'alias fgrep='fgrep --color=auto'' >> ~/.zshrc
-echo 'alias egrep='egrep --color=auto'' >> ~/.zshrc
+echo "alias ls='ls --color=auto'" >> ~/.zshrc
+echo "alias grep='grep --color=auto'" >> ~/.zshrc
+echo "alias fgrep='fgrep --color=auto'" >> ~/.zshrc
+echo "alias egrep='egrep --color=auto'" >> ~/.zshrc
 
 cp gitconfig ~/.gitconfig
 
