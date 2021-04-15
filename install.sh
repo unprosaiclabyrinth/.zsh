@@ -8,16 +8,19 @@ git clone --depth=1 https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-
 echo 'source ~/.zsh/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 echo 'source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh' >>~/.zshrc
 
+echo >> ~/.zshrc
 echo 'HISTFILE=~/.zsh_history' >> ~/.zshrc
 echo 'HISTSIZE=10000' >> ~/.zshrc
 echo 'SAVEHIST=10000' >> ~/.zshrc
 echo 'setopt appendhistory' >> ~/.zshrc
 
+echo >> ~/.zshrc
 echo "alias ls='ls --color=auto'" >> ~/.zshrc
 echo "alias grep='grep --color=auto'" >> ~/.zshrc
 echo "alias fgrep='fgrep --color=auto'" >> ~/.zshrc
 echo "alias egrep='egrep --color=auto'" >> ~/.zshrc
 
 cp gitconfig ~/.gitconfig
+touch ~/.zsh_history
 
 zsh
