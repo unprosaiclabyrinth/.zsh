@@ -12,7 +12,8 @@ git clone --depth=1 https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-
 git clone --depth=1 https://github.com/zsh-users/zsh-history-substring-search.git ~/.zsh/zsh-history-substring-search
 echo 'source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh' >> ~/.zshrc
 echo 'source ~/.zsh/zsh-history-substring-search/zsh-history-substring-search.zsh' >> ~/.zshrc
-sed -i 's/robbyrussell/avit/g' ~/.zshrc
+#sed -i 's/robbyrussell/avit/g' ~/.zshrc
+sed -i 's/robbyrussell/bira/g' ~/.zshrc
 
 echo >> ~/.zshrc
 echo 'HISTFILE=~/.zsh_history' >> ~/.zshrc
